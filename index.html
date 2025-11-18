@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c9aef7b0f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.png" alt="" class="logo" height="60px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <img src="close.png" alt="" width="20" class="fas" onclick="closemenu()">
+                </ul>
+                <img src="menu (1).png" alt="" width="30" class="fas" onclick="openmenu()">
+            </nav>
+            <hr>
+            <div class="header-text">
+                <h1>FULL STACK DEVELOPER</h1>
+                <h1>Hi, I'm <span>Vinod Kumar</span><br>Deeli From Nellore</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------------------About--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image.jpg" alt="" width="300px" height="500px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p>I'm Vinod Kumar Deeli, a Computer Science engineer skilled in Python, Java, and web technologies. With hands-on experience from an IIT Kanpur internship and a focus on secure systems, I enjoy building reliable and innovative software solutions.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Python</li>
+                            <li><span>UI Modules</span><br>HTML, CSS, JavaScript, ReactJs</li>
+                            <li><span>DataBases</span><br>SQL, MySql</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022</span><br>Python Internship For IIT KANPUR</li>
+                            <li><span>2023</span><br>SalesForce Certificate For SalesForce Academy</li>
+                            <li><span>2023</span><br>AWS Certificate For AWS Academy</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.Tech : PACE Institute Of Technology And Sciences, Ongole</li>
+                            <li><span>2018-2020</span><br>Intermediate : Dr.BSR Junior College, Atmakur</li>
+                            <li><span>2017-2018</span><br>SSC : ZPP High School, Karatampadu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------services------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+            <div>
+                <img src="code.png" alt="" height="50px">
+                <h2>Web Development</h2>
+                <p>One way to categorize the activities is in terms of the professional's area of expertize as competitive analysis, corporate stratergy</p>
+                <a href="https://www.wix.com/blog/how-to-become-a-web-designer?utm_source=bing&utm_medium=cpc&utm_campaign=506190447^1274335632852029^search%20-%20dsa&experiment_id=https%3A%2F%2Fwww.wix.com%2Fblog%2Fhow-to-become-a-web-designer^b^^&msclkid=211fd905fe54142aa7cdb15e76f9e6da">Learn More</a>
+            </div>
+            <div>
+                <img src="app-store.png" alt="" height="50px">
+                <h2>App Development</h2>
+                <p>One way to categorize the activities is in terms of the professional's area of expertize as competitive analysis, corporate stratergy</p>
+                <a href="https://www.wix.com/app-builder?utm_source=bing&utm_medium=cpc&utm_campaign=506190450^1273236120776124^search%20-%20dsa&experiment_id=https%3A%2F%2Fwix.com%2Fapp-builder^b^^&msclkid=7b7fd21b35ef1217cbbbba40bd023316">Learn More</a>
+            </div>
+            <div>
+                <img src="tablet.png" height="50px">
+                <h2>Web Design</h2>
+                <p>One way to categorize the activities is in terms of the professional's area of expertize as competitive analysis, corporate stratergy</p>
+                <a href="#header">Learn More</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------Portfolio--------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><img src="link.png" alt=""  width="10px"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><img src="link.png" alt=""  width="10px"></a>
+                </div>
+            </div>
+             <div class="work">
+                <img src="work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><img src="link.png" alt="" ></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!----------------------Contact--------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span>Me!</span></h1>
+                    <p style="margin-left: 50px; font-size: 18px; color: rgb(243, 22, 14);">If You Have Any Queries</p>
+                    <p><img src="mail.png" width="30"> vinodchowdary449@gmail.com</p>
+                    <p><img src="telephone.png" width="30"> 7995806492</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/vinodchowdary.deeli"><img src="facebook.png" width="30"></a>
+                        <a href="https://x.com/VinodCh39173271?s=09"><img src="twitter.png" width="30"><a>
+                        <a href="https://www.instagram.com/vinodchowdary__03"><img src="instagram.png" width="30"></a>
+                        <a href="https://www.linkedin.com/in/vinod-kumar-deeli-24r38"><img src="linkedin.png" width="30"></a>
+                    </div>
+                    <a href="Vinod.pdf" download class="btn btn2"> Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2" style="font-size: 18px;">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © By Vinod. All Rights Reserved <img src="heart.png" width="15">.</p>
+    </div>
+    
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script >
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwmNjtMuavfOFxizSNcR3zQJQ1-haEtEwG7JuxWqCfdOAW4lBipSuVeFr20fa7VekpL-A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
